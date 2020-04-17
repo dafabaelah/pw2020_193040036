@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'burnstown-dam';
+  src: url('../font/burnstown-dam/burnstown-dam.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  background-image: url(../img/kayu.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.judul{
+  font-family: burnstown-dam, arial;
+  text-align: center;
+  color: brown;
+
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: white; 
+  color: #008CBA; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
