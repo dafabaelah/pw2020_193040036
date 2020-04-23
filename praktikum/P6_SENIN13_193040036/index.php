@@ -32,7 +32,7 @@
 				<p>Latihan 6e</p>
 			</a></div>
 		<div class="link"><a href="Tugas">
-				<p>Tugas</p>
+				<p>Tugas 1</p>
 			</a></div>
 		<div class="footer">
 			<p>Daffa Akhdan Fadhillah | &copy; 2020</p>
