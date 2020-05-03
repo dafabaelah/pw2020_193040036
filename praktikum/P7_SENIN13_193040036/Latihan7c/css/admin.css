@@ -1,0 +1,44 @@
+.utama {
+  width: 1200px;
+  margin: 20px auto;
+	background-color: rgb(196, 196, 196);
+  position: relative;
+  padding: 20px;
+  border-radius: 10px;
+}
+#judul {
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px;
+  position: relative;
+  border-style: outset;
+  margin-bottom: 20px;
+}
+#menu {
+  float: left;
+  background-color: white;
+  width: 20%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px;
+  position: relative;
+  border-style: outset;
+  padding: 10px 10px;
+}
+#content {
+  float: right;
+  background-color: white;
+  width: 78%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px;
+  position: relative;
+  padding: 10px 10px;
+  border-style: outset;
+}
+.content {
+  font-size: medium;
+}
+.clear {
+  clear: both;
+}

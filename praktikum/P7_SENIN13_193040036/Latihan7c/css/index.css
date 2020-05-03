@@ -1,0 +1,15 @@
+.logo {
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.9));
+}
+.kotak-shadow {
+  box-shadow: 2px 2px 11px;
+  margin: 10px;
+  border-radius: 5%;
+}
+.isi {
+  margin: auto;
+}
+.footerku {
+  color: white;
+  bottom: 0px;
+}

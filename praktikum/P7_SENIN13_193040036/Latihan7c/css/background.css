@@ -1,0 +1,13 @@
+@keyframes color {
+	0% {background-color: #ff33cc;}
+	10% {background-color: #ccccff;}
+	20% {background-color: #66ffcc;}
+    30% {background-color: #3366cc;}
+    40%	{background-color: #ffccff;}
+    50% {background-color: #3399ff;}
+    60%	{background-color: #f1c40f;}
+    70% {background-color: #16a085;}
+    80%	{background-color: #9b59b6;}
+    90%	{background-color: #e74c3c;}
+    100% {background-color: #2ecc71;}
+}

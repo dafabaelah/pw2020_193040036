@@ -1,0 +1,13 @@
+.penc {
+  margin: auto 50px;
+  height: 440px;
+}
+
+.penc h3 {
+  text-align: center;
+}
+.penc img {
+  filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.8));
+  margin: 70px auto;
+  display: block;
+}
