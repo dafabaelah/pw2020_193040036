@@ -37,49 +37,70 @@ if (isset($_POST['ubah'])) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Daffa Akhdan Fadhillah">
+  <meta name="author" content="193040036">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
   <title>Ubah Data Mahasiswa</title>
 </head>
 
 <body>
-  <h3>From Ubah Data Mahasiswa</h3>
-  <form action="" method="POST">
-    <input type="hidden" name="id" value="<?= $m['id']; ?>">
-    <ul>
-      <li>
-        <label>
-          Nama :
-          <input type="text" name="nama" autofocus required value="<?= $m['nama']; ?>">
-        </label>
-      </li>
-      <li>
-        <label>
-          NRP :
-          <input type="text" name="nrp" required value="<?= $m['nrp']; ?>">
-        </label>
-      </li>
-      <li>
-        <label>
-          E-mail :
-          <input type="text" name="email" required value="<?= $m['email']; ?>">
-        </label>
-      </li>
-      <li>
-        <label>
-          Jurusan :
-          <input type="text" name="jurusan" required value="<?= $m['jurusan']; ?>">
-        </label>
-      </li>
-      <li>
-        <label>
-          Gambar :
-          <input type="text" name="gambar" value="<?= $m['gambar']; ?>">
-        </label>
-      </li>
-      <li>
-        <button type="submit" name="ubah">ubah Data!</button>
-      </li>
-    </ul>
-  </form>
+  <div class="container">
+    <div class="card">
+      <div class="card-header text-center">
+        <h3>From Ubah Data Mahasiswa</h3><br>
+      </div>
+      <div class="card-body">
+        <form method="POST">
+          <input type="hidden" name="id" value="<?= $m['id']; ?>">
+          <div class="form-group">
+            <label>
+              <label for="nama">Nama : </label><br>
+              <input type="text" name="nama" id="nama" class="form-control" required value="<?= $m['nama']; ?>">
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <label for="nrp">Nrp : </label><br>
+              <input type="text" name="nrp" id="nrp" class="form-control" required value="<?= $m['nrp']; ?>">
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <label for="email">E-mail : </label><br>
+              <input type="email" name="email" id="email" class="form-control" required value="<?= $m['email']; ?>">
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <label for="jurusan">Jurusan : </label><br>
+              <input type="text" name="jurusan" id="jurusan" class="form-control" required value="<?= $m['jurusan']; ?>">
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <label for="gambar">Gambar : </label><br>
+              <input type="text" name="gambar" id="gambar" class="form-control" required value="<?= $m['gambar']; ?>">
+            </label>
+          </div>
+          <br>
+          <button type="sumbit" name="ubah" class="btn btn-outline-success">Ubah Data!</button>
+          <button type="sumbit" class="btn btn-outline-secondary">
+            <a href="index.php" style="text-decoration: none; color: black">Kembali</a>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
