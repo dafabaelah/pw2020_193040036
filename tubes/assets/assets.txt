@@ -1,0 +1,19 @@
+icon :
+
+https://icon-icons.com/id/icon/lightbulb-ide/49321
+https://icon-icons.com/id/icon/juga-sedih-emoticon/26009
+
+gambar isi, sumber dari :
+www.google.com (google images)
+id.wikipedia.org
+
+materi, sumber dari :
+www.google.com
+id.wikipedia.org
+www.slideshare.net
+
+pdf reporting :
+dompdf
+
+particles.js :
+https://vincentgarreau.com

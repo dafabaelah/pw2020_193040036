@@ -1,0 +1,72 @@
+.footerku {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(45deg, #5000CA, #00CBA9) !important;
+}
+
+.jumbotron {
+  position: absolute;
+  width: 100%;
+  height: 100% !important;
+  background-color: transparent !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+  margin: 0 auto;
+  padding: 10px;
+  display: block;
+}
+
+/* .jumbotron input {
+  text-align: center;
+  width: 200px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  border: none;
+} */
+/* .jumbotron input:hover {
+  width: 100%;
+} */
+.navbar {
+  position: relative;
+}
+.sambutan h1,
+.sambutan p {
+  color: white;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 4rem;
+}
+.bg-kontent {
+  position: relative;
+  background-color: white;
+}
+.bg-kontent .abstrak {
+  background-image: url(../icon/abstrak.png);
+  background-repeat: repeat-y;
+  background-position-x: right;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100px;
+  background-size: 65%;
+}
+.bg-kontent h3 {
+  text-align: center;
+  padding-top: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  padding-bottom: 10px;
+}
+.bg-kontent .abstrak2 {
+  background-image: url(../icon/abstrak2.png);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  left: -9px;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+
+}
+
+.loro {
+  height: 100%;
+}

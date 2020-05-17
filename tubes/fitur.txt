@@ -1,0 +1,11 @@
+//Dari daffa akhdan fadhillah - 193040036//
+
+
+1. login/logout
+2. registrasi
+3. pdfreporting/download pdf
+4. admin pannel
+5. tambah, ubah, hapus, data.
+6. dimenu detail ada fungsi untuk zoom picture menggunakan ajax, untuk memfungsikannya : untuk zoom scrol kebawah, dan sebalinnya.
+7. ada sorting setiap table di bagian admin pannel.
+8. dll.

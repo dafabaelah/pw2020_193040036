@@ -1,0 +1,76 @@
+body {
+  background: linear-gradient(45deg, #5000CA, #00CBA9) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footerku {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+.bg-kontent {
+  position: relative;
+  background: rgba(255, 255, 255, 0.6);
+}
+.bg-kontent .abstrak {
+  background-image: url(../icon/abstrak.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  width: 100%;
+  height: 100%;
+  background-size: 65%;
+  padding: 20px;
+}
+.bg-kontent h3 {
+  text-align: center;
+  padding-top: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  padding-bottom: 10px;
+}
+
+.isi {
+  margin: 10px auto;
+  position: relative;
+
+}
+.card {
+  box-shadow: 1px 1px 10px;
+  background: rgba(255, 255, 255, 0.4);
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.kolom-cari{
+  width: 100%;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  box-shadow: 1px 1px 10px;
+}
+.form-control {
+  margin: 20px auto;
+  align-content: center;
+}
+.keyword {
+  border: none;
+  background: #fff;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: black;
+  transition: 0.4s;
+  line-height: 30px;
+  width: 0;
+}
+.keyword:hover {
+  width: 580px;
+  padding: 0 8px;
+}
+
+.keyword:hover {
+  background: #fff;
+  box-shadow: 1px 1px 9px black;
+}
